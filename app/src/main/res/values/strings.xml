@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">claroPerro</string>
+    <string name="temperament">Temperament</string>
+    <string name="intelligence">Intelligence</string>
+    <string name="countryCode">CountryCode</string>
+    <string name="lifeSpan">Life Span</string>
+    <string name="origin">Origin</string>
+    <string name="error_showing_dog_not_found">Error showing dog, dog not found</string>
+    <string name="dog_index_format">#%d</string>
+    <string name="dog_life_expectancy_format">%s years</string>
 </resources>
