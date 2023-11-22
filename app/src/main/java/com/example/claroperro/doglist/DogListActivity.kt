@@ -48,7 +48,7 @@ class DogListActivity : AppCompatActivity() {
                     Toast.makeText(this, status.message,Toast.LENGTH_SHORT).show()
                 }
                 is ApiResponseStatus.Loading -> loadingWheel.visibility = View.VISIBLE
-                is ApiResponseStatus.Succes -> loadingWheel.visibility = View.GONE
+                is ApiResponseStatus.Success -> loadingWheel.visibility = View.GONE
             }
         }
     }

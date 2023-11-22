@@ -1,9 +1,7 @@
 package com.example.claroperro.api
 
-import com.example.claroperro.Dog
-
-sealed class ApiResponseStatus {
-    class Succes(val dogList: List<Dog>): ApiResponseStatus()
-    class Loading(): ApiResponseStatus()
-    class Error(val message: Int): ApiResponseStatus()
+sealed class ApiResponseStatus<T> {
+    class Success<T>(val data: T): ApiResponseStatus<T>()
+    class Loading<T>: ApiResponseStatus<T>()
+    class Error<T>(val message: Int): ApiResponseStatus<T>()
 }
