@@ -4,6 +4,7 @@ import com.example.claroperro.Dog
 
 class DogDTOMapper {
     private fun fromDogDTOToDogDomain(dogDTO: DogDTO) : Dog {
+
         return Dog(
             dogDTO.id,
             dogDTO.name,
@@ -15,7 +16,9 @@ class DogDTOMapper {
             dogDTO.temperament,
             dogDTO.childFriendly,
             dogDTO.wiki,
-            dogDTO.countryCode
+            dogDTO.countryCode,
+            dogDTO.imgId
+
         )
     }
 

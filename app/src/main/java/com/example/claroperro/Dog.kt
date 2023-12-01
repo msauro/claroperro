@@ -15,9 +15,14 @@ data class Dog(
     val temperament: String,
     val childFriendly: Int,
     val wiki: String,
-    val countryCode: String
+    val countryCode: String,
+    val imgId: String
 ) : Parcelable
 
 data class Weight(
     val imperial: String
+)
+
+data class DogImage (
+    val url: String
 )

@@ -15,5 +15,7 @@ class DogDTO(
     val temperament: String,
     @Json(name = "child_friendly")  val childFriendly: Int,
     val weight: Weight,
-    @Json(name="wikipedia_url") val wiki: String
+    @Json(name="wikipedia_url") val wiki: String,
+    @Json(name="reference_image_id") val imgId: String,
+
 )

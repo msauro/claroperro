@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.claroperro.Dog
 import com.example.claroperro.api.ApiResponseStatus
+import com.example.claroperro.repository.DogRepository
 import kotlinx.coroutines.launch
 
 class DogListViewModel : ViewModel() {
